@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 45px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+ }
+
+ .header .navbar .startup1 h2 {
+    color: darkblue;
+    padding-left: 110px;
+    font-size: 24px;
+ }
+
+ .header .navbar .items {
+    display: flex;
+    align-items: center;
+ }
+
+ .header .navbar .items .item {
+    padding-left: 40px;
+    color: gray;
+    font-size: 18px;
+ }
+
+ .header .navbar .signs {
+    padding-right: 100px;
+    display: flex;
+ }
+
+ .header .navbar .signs div {
+    padding: 10px 18px;
+    color: gray;
+ }
+
+ .header .navbar .signs .sign2 {
+    background-color: rgb(0, 204, 255);
+    border-radius: 20px;
+    color: white;
+ }
+
+ .section {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+ }
+
+ .section .main .name h1 {
+    padding-bottom: 20px;
+    color: darkblue;
+    font-size: 70px;
+ }
+
+ .section .main .content {
+    font-size: 22px;
+    color: grey;
+    padding: 40px 0px;
+    margin-left: 40px;
+    line-height: 35px;
+    letter-spacing: 1px;
+ }
+
+ .section .main .buy h5 {
+    padding: 25px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    width: 220px;
+    margin-left: 170px;
+    letter-spacing: 1px;
+ }
+
+ .section .main .learnmore {
+    padding: 20px;
+    color: aqua;
+    font-weight: 600;
+    margin-left: 240px;
+    font-size: 19px;
+ }
